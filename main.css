@@ -127,7 +127,7 @@
 
 
 /*box6*/
-.nav_cart i {
+.nav_cart i{
     font-size: 30px;
 }
 .nav_cart{
@@ -157,26 +157,25 @@ p{
 }
 
 .panel_option{
-    width: 70%;
+    width: 100%;
     font-size: 0.85rem;
-    justify-content: center;
-}
-.nav_1{
     display: flex;
     justify-content: center;
     color: #FFFFFF;
-    list-style-type: none;
-    
 }
+
+.nav_li{
+    margin-left: 20px;
+}
+
 .panel_deals{
     color: #FFFFFF;
     font-size: 0.9rem;
     font-weight: 700;
+    display: flex;
     justify-content: end;
 }
-.nav_li{
-    margin-left: 20px;
-}
+
 
 .hero_section{
     background-image: url(bg.jpg);
